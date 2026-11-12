@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>SPORTZONE — спортивный магазин</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="phone">
+    <div class="status"><span>9:41</span><span>▴ ▮ ▰</span></div>
+    <header class="topbar">
+      <button class="round back hidden" id="backBtn" aria-label="Назад">‹</button>
+      <div class="brand" id="brand">SPORT<span>ZONE</span></div>
+      <h1 id="pageTitle" class="page-title hidden"></h1>
+      <button class="round" id="headerAction" aria-label="Корзина">♧</button>
+    </header>
+    <section id="view" class="view"></section>
+    <nav class="bottom-nav">
+      <button data-page="home" class="nav-item active"><span>⌂</span>Главная</button>
+      <button data-page="shop" class="nav-item"><span>▦</span>Каталог</button>
+      <button data-page="favorites" class="nav-item"><span>♡</span>Избранное</button>
+      <button data-page="cart" class="nav-item"><span>♧</span>Корзина</button>
+      <button data-page="profile" class="nav-item"><span>♙</span>Профиль</button>
+    </nav>
+    <div class="home-indicator"></div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
